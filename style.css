@@ -76,6 +76,8 @@ button {
     height: 7.6rem;
     border-radius: 4px;
     background-color: var(--black);
+    font-size: 2.4rem;
+    font-weight: 700;
 }
 
 .wrapper{
@@ -252,6 +254,7 @@ section div p{
     align-items: center;
     background-color: var(--gray-1);
     padding: 3.2rem;
+    border-radius: 8px;
 }
 
 span.variety_price-real {
@@ -288,10 +291,53 @@ aside.icons-info {
 }
 
 .icons-form img{
-    margin-bottom: 1rem;
+    margin-bottom: 2.4rem;
     align-items: center;
 }
 
 .icons-form p{
     text-align: center;
+}
+
+.catalog{
+    display: flex;
+    gap: 3.2rem;
+    justify-content: center;
+    margin-bottom: 16rem;
+}
+
+.catalog-coffee{
+    background-image: url('./img/pote-cafe.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.catalog h2{
+    padding:38.8rem 21.8rem 2.4rem 4rem;
+    color: var(--white);
+}
+
+.catalog p{
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 500;
+    padding:0 4rem 4rem 4rem;
+    
+}
+
+.italian-coffee{
+    background-image: url('./img/italiana.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.form{
+     
+}
+
+.map{
+    background-image: url('./img/mapa.png');
+    height:30rem;
 }
