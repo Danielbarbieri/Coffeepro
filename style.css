@@ -290,6 +290,10 @@ aside.icons-info {
     flex-wrap: wrap;
 }
 
+svg.icon {
+    width: 60px;
+}
+
 .icons-form img {
     margin-bottom: 2.4rem;
     align-items: center;
